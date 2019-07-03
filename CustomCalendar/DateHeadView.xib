@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="UICollectionReusableView">
+            <rect key="frame" x="0.0" y="0.0" width="326" height="79"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="周一" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vid-1q-c4E">
+                    <rect key="frame" x="46.5" y="0.0" width="46" height="79"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="周二" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yy3-cW-iq6">
+                    <rect key="frame" x="92.5" y="0.0" width="47" height="79"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="周三" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LPW-R2-wQh">
+                    <rect key="frame" x="139.5" y="0.0" width="46.5" height="79"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="周四" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tl7-0c-20L">
+                    <rect key="frame" x="186" y="0.0" width="47" height="79"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="周五" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZZ9-fp-mG3">
+                    <rect key="frame" x="233" y="0.0" width="46" height="79"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="周日" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iUs-Hk-Lye">
+                    <rect key="frame" x="0.0" y="0.0" width="46.5" height="79"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="周六" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gfA-lR-Zec">
+                    <rect key="frame" x="279" y="0.0" width="47" height="79"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="yy3-cW-iq6" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="0pc-J0-wDB"/>
+                <constraint firstItem="ZZ9-fp-mG3" firstAttribute="width" secondItem="gfA-lR-Zec" secondAttribute="width" id="1c8-t1-HeX"/>
+                <constraint firstItem="Vid-1q-c4E" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="2B6-4c-Bj4"/>
+                <constraint firstItem="tl7-0c-20L" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="4bp-Ne-5i5"/>
+                <constraint firstItem="iUs-Hk-Lye" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="5CS-ci-lT9"/>
+                <constraint firstItem="ZZ9-fp-mG3" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="B5V-1C-ioV"/>
+                <constraint firstItem="iUs-Hk-Lye" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="CDc-Tk-YgT"/>
+                <constraint firstItem="LPW-R2-wQh" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="Cot-ea-pBa"/>
+                <constraint firstItem="yy3-cW-iq6" firstAttribute="leading" secondItem="Vid-1q-c4E" secondAttribute="trailing" id="DGI-9b-3rM"/>
+                <constraint firstItem="tl7-0c-20L" firstAttribute="leading" secondItem="LPW-R2-wQh" secondAttribute="trailing" id="EvK-on-PzA"/>
+                <constraint firstItem="Vid-1q-c4E" firstAttribute="leading" secondItem="iUs-Hk-Lye" secondAttribute="trailing" id="JDL-KR-0iZ"/>
+                <constraint firstItem="Vid-1q-c4E" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="N73-uT-k1W"/>
+                <constraint firstItem="LPW-R2-wQh" firstAttribute="leading" secondItem="yy3-cW-iq6" secondAttribute="trailing" id="PPu-xC-mUd"/>
+                <constraint firstItem="gfA-lR-Zec" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="Vmk-yx-NKe"/>
+                <constraint firstItem="tl7-0c-20L" firstAttribute="width" secondItem="ZZ9-fp-mG3" secondAttribute="width" id="WVj-es-Xal"/>
+                <constraint firstItem="LPW-R2-wQh" firstAttribute="width" secondItem="tl7-0c-20L" secondAttribute="width" id="XJK-mi-Hlc"/>
+                <constraint firstItem="yy3-cW-iq6" firstAttribute="width" secondItem="LPW-R2-wQh" secondAttribute="width" id="XNY-DM-WPe"/>
+                <constraint firstItem="tl7-0c-20L" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="b9L-6L-RQG"/>
+                <constraint firstItem="gfA-lR-Zec" firstAttribute="leading" secondItem="ZZ9-fp-mG3" secondAttribute="trailing" id="d7L-I9-Dpn"/>
+                <constraint firstItem="iUs-Hk-Lye" firstAttribute="width" secondItem="Vid-1q-c4E" secondAttribute="width" id="dgj-uN-NjW"/>
+                <constraint firstItem="gfA-lR-Zec" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="fuv-64-kCi"/>
+                <constraint firstItem="gfA-lR-Zec" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="hEp-fT-XzC"/>
+                <constraint firstItem="yy3-cW-iq6" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="hxh-NM-BEf"/>
+                <constraint firstItem="iUs-Hk-Lye" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="jqA-RD-5h2"/>
+                <constraint firstItem="ZZ9-fp-mG3" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="q8G-h3-k1v"/>
+                <constraint firstItem="LPW-R2-wQh" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="u4S-Xs-SxE"/>
+                <constraint firstItem="ZZ9-fp-mG3" firstAttribute="leading" secondItem="tl7-0c-20L" secondAttribute="trailing" id="waX-rA-jXK"/>
+                <constraint firstItem="Vid-1q-c4E" firstAttribute="width" secondItem="yy3-cW-iq6" secondAttribute="width" id="yAL-66-egG"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="131" y="-294.5"/>
+        </view>
+    </objects>
+</document>

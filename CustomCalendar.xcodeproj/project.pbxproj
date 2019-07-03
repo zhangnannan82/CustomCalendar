@@ -13,6 +13,13 @@
 		6DD3646322CB228000BB6953 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DD3646222CB228000BB6953 /* Assets.xcassets */; };
 		6DD3646622CB228000BB6953 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DD3646422CB228000BB6953 /* LaunchScreen.storyboard */; };
 		6DD3646922CB228000BB6953 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DD3646822CB228000BB6953 /* main.m */; };
+		6DD3647222CB56F500BB6953 /* DateCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DD3647022CB56F500BB6953 /* DateCell.m */; };
+		6DD3647322CB56F500BB6953 /* DateCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DD3647122CB56F500BB6953 /* DateCell.xib */; };
+		6DD3647822CB59FE00BB6953 /* DateHeadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DD3647722CB59FE00BB6953 /* DateHeadView.xib */; };
+		6DD3647B22CB5F7200BB6953 /* DateModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DD3647A22CB5F7200BB6953 /* DateModel.m */; };
+		6DD3648222CC95FA00BB6953 /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DD3648022CC95FA00BB6953 /* CollectionViewController.m */; };
+		6DD3648322CC95FA00BB6953 /* CollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DD3648122CC95FA00BB6953 /* CollectionViewController.xib */; };
+		6DD3648622CC9A0D00BB6953 /* CollectionLayOut.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DD3648522CC9A0D00BB6953 /* CollectionLayOut.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +33,17 @@
 		6DD3646522CB228000BB6953 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6DD3646722CB228000BB6953 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6DD3646822CB228000BB6953 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6DD3646F22CB56F500BB6953 /* DateCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DateCell.h; sourceTree = "<group>"; };
+		6DD3647022CB56F500BB6953 /* DateCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DateCell.m; sourceTree = "<group>"; };
+		6DD3647122CB56F500BB6953 /* DateCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DateCell.xib; sourceTree = "<group>"; };
+		6DD3647722CB59FE00BB6953 /* DateHeadView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DateHeadView.xib; sourceTree = "<group>"; };
+		6DD3647922CB5F7200BB6953 /* DateModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DateModel.h; sourceTree = "<group>"; };
+		6DD3647A22CB5F7200BB6953 /* DateModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DateModel.m; sourceTree = "<group>"; };
+		6DD3647F22CC95FA00BB6953 /* CollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectionViewController.h; sourceTree = "<group>"; };
+		6DD3648022CC95FA00BB6953 /* CollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionViewController.m; sourceTree = "<group>"; };
+		6DD3648122CC95FA00BB6953 /* CollectionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewController.xib; sourceTree = "<group>"; };
+		6DD3648422CC9A0D00BB6953 /* CollectionLayOut.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectionLayOut.h; sourceTree = "<group>"; };
+		6DD3648522CC9A0D00BB6953 /* CollectionLayOut.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionLayOut.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +80,17 @@
 				6DD3645A22CB228000BB6953 /* AppDelegate.m */,
 				6DD3645C22CB228000BB6953 /* ViewController.h */,
 				6DD3645D22CB228000BB6953 /* ViewController.m */,
+				6DD3647F22CC95FA00BB6953 /* CollectionViewController.h */,
+				6DD3648022CC95FA00BB6953 /* CollectionViewController.m */,
+				6DD3648122CC95FA00BB6953 /* CollectionViewController.xib */,
+				6DD3648422CC9A0D00BB6953 /* CollectionLayOut.h */,
+				6DD3648522CC9A0D00BB6953 /* CollectionLayOut.m */,
+				6DD3647922CB5F7200BB6953 /* DateModel.h */,
+				6DD3647A22CB5F7200BB6953 /* DateModel.m */,
+				6DD3646F22CB56F500BB6953 /* DateCell.h */,
+				6DD3647022CB56F500BB6953 /* DateCell.m */,
+				6DD3647122CB56F500BB6953 /* DateCell.xib */,
+				6DD3647722CB59FE00BB6953 /* DateHeadView.xib */,
 				6DD3645F22CB228000BB6953 /* Main.storyboard */,
 				6DD3646222CB228000BB6953 /* Assets.xcassets */,
 				6DD3646422CB228000BB6953 /* LaunchScreen.storyboard */,
@@ -129,9 +158,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DD3648322CC95FA00BB6953 /* CollectionViewController.xib in Resources */,
+				6DD3647822CB59FE00BB6953 /* DateHeadView.xib in Resources */,
 				6DD3646622CB228000BB6953 /* LaunchScreen.storyboard in Resources */,
 				6DD3646322CB228000BB6953 /* Assets.xcassets in Resources */,
 				6DD3646122CB228000BB6953 /* Main.storyboard in Resources */,
+				6DD3647322CB56F500BB6953 /* DateCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,8 +175,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				6DD3645E22CB228000BB6953 /* ViewController.m in Sources */,
+				6DD3647B22CB5F7200BB6953 /* DateModel.m in Sources */,
+				6DD3648222CC95FA00BB6953 /* CollectionViewController.m in Sources */,
 				6DD3646922CB228000BB6953 /* main.m in Sources */,
 				6DD3645B22CB228000BB6953 /* AppDelegate.m in Sources */,
+				6DD3647222CB56F500BB6953 /* DateCell.m in Sources */,
+				6DD3648622CC9A0D00BB6953 /* CollectionLayOut.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
